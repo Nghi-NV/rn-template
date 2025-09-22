@@ -17,8 +17,6 @@ export const createTheme = (
       backgroundColor: colors.card,
       borderRadius: 12,
       padding: spacing.m,
-      borderWidth: 1,
-      borderColor: colors.border,
     },
     cardElevated: {
       backgroundColor: colors.cardElevated,

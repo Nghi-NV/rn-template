@@ -84,11 +84,12 @@ const SettingsScreen = () => {
         <StyledText variant='title1' style={{ marginTop: theme.spacing.m, marginBottom: theme.spacing.l }}>
           Cài đặt
         </StyledText>
+
+        <View style={{ height: theme.spacing.xl, backgroundColor: theme.colors.primary, marginBottom: theme.spacing.l, borderRadius: theme.spacing.m }} />
+
         <StyledText variant='headline' style={{ marginTop: theme.spacing.m, marginBottom: theme.spacing.xs }}>
           Cài đặt
         </StyledText>
-
-        <View style={{ height: theme.spacing.xl, backgroundColor: theme.colors.primary }} />
 
         <View style={[theme.styles.card, styles.cardNoPadding]}>
           <SettingsRow text="Thông báo" >
